@@ -74,7 +74,7 @@ This project is created for DJEJA company. All rights reserved.
 
 ## 📞 Contact
 
-- **Email**: hello@djeja.tn
+- **Email**: djejateam@gmail.com
 - **Phone**: +216 00 000 000
 - **Website**: [Your deployed URL]
 
