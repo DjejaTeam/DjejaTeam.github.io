@@ -49,8 +49,6 @@ djeja/
 ├── styles.css              # All CSS styles and animations
 ├── script.js               # JavaScript functionality
 ├── assets/                 # Images and media files
-│   ├── djeja-logo.png     # Company logo
-│   ├── pipelinedjeja.png  # Process diagram
 └── README.md              # Project documentation
 ```
 
@@ -73,6 +71,11 @@ pip install -r requirements.txt
 # Reinstall requirements
 streamlit run app.py
 ```
+
+**Access Your Site**:
+   - Website: `https://DjejaTeam.github.io`
+   - Updates deploy automatically on every push to `main`
+
 ## 📝 License
 
 This project is created for DJEJA company. All rights reserved.
