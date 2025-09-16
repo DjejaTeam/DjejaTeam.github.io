@@ -596,14 +596,34 @@ body {
     text-align: center;
 }
 
+/* Add these styles to your styles.css */
 .founder-photo {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #8b9c67, #a8b87a);
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid #8b9c67;
 }
 
+/* Individual founder photos */
+.founder:nth-child(1) .founder-photo {
+    background-image: url('assets/founders/bouchhima.png');
+}
+
+.founder:nth-child(2) .founder-photo {
+    background-image: url('assets/founders/msedi.png');
+}
+
+.founder:nth-child(3) .founder-photo {
+    background-image: url('assets/founders/kotti.png');
+}
+
+.founder:nth-child(4) .founder-photo {
+    background-image: url('assets/founders/abid.png');
+}
 .founder h3 {
     font-size: 1.1rem;
     font-weight: 600;
