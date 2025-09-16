@@ -45,13 +45,12 @@ DJEJA is a sustainable energy solution that transforms chicken manure into clean
 
 ```
 djeja/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Pages deployment workflow
 ├── index.html              # Main HTML file
 ├── styles.css              # All CSS styles and animations
 ├── script.js               # JavaScript functionality
-├── .gitignore              # Git ignore file
+├── assets/                 # Images and media files
+│   ├── djeja-logo.png     # Company logo
+│   ├── pipelinedjeja.png  # Process diagram
 └── README.md              # Project documentation
 ```
 
@@ -60,7 +59,20 @@ djeja/
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - No build tools or dependencies required
+### Website
+- Open index.html
 
+### AI 
+- Install the requirements using 
+```bash
+pip install -r requirements.txt 
+```
+- Run the Notebook
+- Run the Streamlit interface for interaction 
+```bash
+# Reinstall requirements
+streamlit run app.py
+```
 ## 📝 License
 
 This project is created for DJEJA company. All rights reserved.
@@ -68,15 +80,10 @@ This project is created for DJEJA company. All rights reserved.
 ## 👥 Team
 
 - **Project Lead**: Khadija Bouchhima
-- **Mechanical Engineer**: Mohamed Amine Mseddi
-- **Energy Systems Engineer**: Mohamed Yessine Abid
-- **Biogas Systems Engineer**: Khadija El Kotti
+- **Technical Lead<**: Mohamed Amine Mseddi
+- **AI & Data Coordinator**: Mohamed Yessine Abid
+- **Sustainability & Outreach**: Khadija El Kotti
 
-## 📞 Contact
-
-- **Email**: djejateam@gmail.com
-- **Phone**: +216 00 000 000
-- **Website**: [Your deployed URL]
 
 
 **Built with ❤️ for sustainable energy in Tunisia**
