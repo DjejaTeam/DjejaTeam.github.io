@@ -83,7 +83,7 @@ This project is created for DJEJA company. All rights reserved.
 ## 👥 Team
 
 - **Project Lead**: Khadija Bouchhima
-- **Technical Lead<**: Mohamed Amine Mseddi
+- **Technical Lead**: Mohamed Amine Mseddi
 - **AI & Data Coordinator**: Mohamed Yessine Abid
 - **Sustainability & Outreach**: Khadija El Kotti
 
